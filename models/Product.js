@@ -11,6 +11,7 @@ Product.init(
 
   {
     // define the columns
+    // by their id that contains type of data
 
     id: {
       type: DataTypes.INTEGER,
@@ -19,10 +20,14 @@ Product.init(
       autoIncrement: true,
     },
 
+    // the product name
+
     product_name: {
       type: DataTypes.STRING,
       allowNull: false,
     },
+
+    // the product price 
 
     price: {
       type: DataTypes.DECIMAL(10, 2),
@@ -33,6 +38,7 @@ Product.init(
 
     },
 
+    // the product in stock //
     stock: {
       type: DataTypes.INTEGER,
       allowNull: false,
@@ -43,6 +49,7 @@ Product.init(
 
     },
 
+    // the catagory id //
     category_id: {
       type: DataTypes.INTEGER,
       references:{
