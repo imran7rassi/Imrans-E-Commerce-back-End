@@ -22,10 +22,22 @@ This is an E-commerce backend node.js backend that involves the use of an expres
 
 ## Video Walk Through
 
+1. 
+![Demo for Walkthrough](./assets/Demo%201.gif)
 
-![Demo for Walkthrough](.)
+2. 
+![Demo for Walkthrough](./assets/Demo%202.gif)
 
-* You also can go through that link for a better look <a href="">Video</a>
+3. 
+![Demo for Walkthrough](./assets/Demo%203.gif)
+
+
+* You also can go through that link for a better look 
+1. <a href="https://drive.google.com/file/d/10OIxeA_lr8zw9KC569e-jLzyD8PCvYM8/view">Demo 1</a>
+2. <a href="https://drive.google.com/file/d/1wE_DecdZhiloNUiaaA0rjvTGACn_IWsK/view">Demo 2</a>
+3. <a href="https://drive.google.com/file/d/1vH0frmREVbIE98RRYQddo50yddjJ7VCZ/view">Demo 3</a>
+
+
 ## Usage 
 
 1. Clone the repo.
