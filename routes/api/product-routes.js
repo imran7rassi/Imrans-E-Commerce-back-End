@@ -25,6 +25,7 @@ router.get('/', async (req, res) => {
 
 		],
 	})
+  
 		.then((productData) => {
 			res.json(productData);
 		})
@@ -126,7 +127,7 @@ router.put('/:id', (req, res) => {
 						product_id: req.params.id,
 						tag_id,
 					};
-          
+
 				});
 			// figure out which ones to remove
 			const productTagsToRemove = productTags
